@@ -1,0 +1,69 @@
+.title {
+    color: #02ccba;
+    text-align: center;
+  }
+
+body {
+    background-image: url("backwaku.png");
+    background-color:darkgray;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-image: url("headimg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.main{
+    height: 2830px;
+    min-height: 100%;
+    object-fit: cover;
+    background-image: url("div3.png");
+    background-color:pink;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    /*margin: 10px 0px;*/
+}
+
+.newslogo{
+    position: absolute;
+    margin: 50px 50px;
+}
+
+.main ul{
+    margin: 10px 20px;
+    padding-top: 100px;
+    font-size:14px;
+    list-style: none;
+    /*background-color:yellow;*/
+}
+
+.main li{
+    font-size:14px;
+    color:white;
+    /*background-color:greenyellow;*/
+}
+
+.main h3{
+    font-size:16px;
+    color:#F9DBB8;
+    text-shadow: -1px -1px 0 #734A30, -1px 0 0 #734A30, -1px 1px 0 #734A30,
+                  0 -1px 0 #734A30,                  0 1px 0 #734A30,
+                1px -1px 0 #734A30,  1px 0 0 #734A30,  1px 1px 0 #734A30;
+    /*background-color:greenyellow;*/
+}
