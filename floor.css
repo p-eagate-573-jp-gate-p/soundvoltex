@@ -18,6 +18,7 @@ header {
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center center;
+    position:fixed;
 }
 
 .bt_trans{
@@ -25,7 +26,7 @@ header {
     text-align:center!important;
     line-height:100px;
     float:left;
-    margin-top: 8px;
+    margin-top: 88px;
     margin-left: 10px;
     margin-bottom: 29px;
 }
@@ -51,8 +52,7 @@ header {
 }
 
 .newslogo{
-    position: absolute;
-    margin: 30px 30px;
+    margin: 30px 30px 0px 30px;
     max-width: 700px;
     width:80%;
     height: auto;
@@ -75,4 +75,44 @@ header {
 
 .after{
     clear:both;
+}
+
+.main ul{
+    margin: 10px 40px 10px 10px;
+    font-size:14px;
+    list-style: none;
+}
+
+.main li{
+    font-size:14px;
+    color:white;
+    line-height:90%;
+    /*background-color:greenyellow;*/
+}
+
+.flex {
+    display: flex; /*横並び*/
+}
+  
+.flex .image {
+    width: 200px; /*画像サイズ指定*/
+}
+  
+.flex .image img {
+    width: 100%;
+    height: auto;
+}
+  
+.flex .right {
+    margin: 0 0 0 20px;
+}
+  
+.flex .title {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+  
+.flex .text {
+    margin: 10px 0 0;
 }
