@@ -43,6 +43,24 @@ header {
 .newslogo{
     position: absolute;
     margin: 50px 50px;
+    max-width: 700px;
+    width:80%;
+    height: auto;
+}
+
+.newsongs{
+    max-width: 700px;
+    width:90%;
+}
+
+.skill{
+    max-width: 700px;
+    width:90%;
+}
+
+.neweffect{
+    max-width: 700px;
+    width:90%;
 }
 
 .main ul{
