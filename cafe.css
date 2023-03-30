@@ -45,10 +45,10 @@ header {
 }
 
 .main{
-    height: 5600px;
+    height: 8800px;
     min-height: 100%;
     object-fit: cover;
-    background-image: url("img/div3.png");
+    background-image: url("img/div4.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
     margin: 0px 10px;
@@ -119,37 +119,36 @@ header {
 .main li{
     font-size:14px;
     color:white;
-    line-height:90%;
-    /*background-color:greenyellow;*/
 }
 
-.flex {
-    display: flex; /*横並び*/
+.box1{
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFF;
+    width:100%;
+    max-width: 300px;
+    margin: 0px 10px 10px 0px;
 }
-  
-.flex .image {
-    width: 200px; /*画像サイズ指定*/
+
+.box2{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    color: #FFF;
+    width:100%;
+    max-width: 600px;
+    margin: 0px 10px 10px 0px;
 }
-  
-.flex .image img {
-    width: 100%;
-    height: auto;
-}
-  
-.flex .right {
-    margin: 0 0 0 20px;
-}
-  
-.flex .food_title {
+
+.food_title{
     font-weight: bold;
     font-size: 18px;
-    text-align: left;
-    width: 700px;
-    margin: 10px 0 0;
 }
-  
-.flex .text {
-    margin: 10px 0 0;
+
+.bt_page{
+    max-width: 200px;
+    width: 100%;
+    margin:0,10px,10px,0;
 }
 
 .pagetop{
