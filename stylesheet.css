@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .title {
     color: #02ccba;
     text-align: center;
@@ -41,7 +45,7 @@ header {
 }
 
 .main{
-    height: 2830px;
+    height: 4030px;
     min-height: 100%;
     object-fit: cover;
     background-image: url("img/div3.png");
@@ -52,7 +56,7 @@ header {
 }
 
 .newslogo{
-    margin: 30px 30px 0px 30px;
+    margin: 50px 30px 0px 50px;
     max-width: 700px;
     width:80%;
     height: auto;
@@ -112,4 +116,19 @@ header {
 .bt_floor{
     max-width: 200px;
     width:100%;
+}
+
+.bt_page{
+    height: auto;
+    width: 200px;
+    margin:0,10px,10px,0;
+}
+
+.pagetop{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
 }
