@@ -121,6 +121,12 @@ header {
     margin: 10px 0 0;
 }
 
+.bt_page{
+    max-width: 200px;
+    width: 100%;
+    margin:0,10px,10px,0;
+}
+
 .pagetop{
     height: 100px;
     width: 100px;
