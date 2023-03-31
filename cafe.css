@@ -94,7 +94,7 @@ header {
 
 .main p{
     margin: 10px 40px 10px 40px;
-    font-size:14px;
+    font-size:18px;
     color:white;
     line-height:90%;
     list-style: none;
@@ -102,7 +102,7 @@ header {
 
 .main h3{
     margin: 10px 40px 10px 40px;
-    font-size:16px;
+    font-size:20px;
     color:#F9DBB8;
     text-shadow: -1px -1px 0 #734A30, -1px 0 0 #734A30, -1px 1px 0 #734A30,
                   0 -1px 0 #734A30,                  0 1px 0 #734A30,
@@ -112,30 +112,35 @@ header {
 
 .main ul{
     margin: 10px 40px 10px 10px;
-    font-size:14px;
+    font-size:18px;
     list-style: none;
 }
 
 .main li{
-    font-size:14px;
+    font-size:18px;
     color:white;
 }
 
-.box1{
-    display: inline-block;
+.flex{
+    display: flex;
+    padding: 10px;
+}
+
+.flex .box1{
+    display: inline;
     vertical-align: middle;
     color: #FFF;
-    width:100%;
+    width:40%;
     max-width: 300px;
     margin: 0px 10px 10px 0px;
 }
 
-.box2{
-    display: inline-block;
+.flex .box2{
+    display: inline;
     vertical-align: top;
     text-align: left;
     color: #FFF;
-    width:100%;
+    width:70%;
     max-width: 600px;
     margin: 0px 10px 10px 0px;
 }
