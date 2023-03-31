@@ -83,12 +83,12 @@ header {
 
 .main ul{
     margin: 10px 40px 10px 10px;
-    font-size:14px;
+    font-size:18px;
     list-style: none;
 }
 
 .main li{
-    font-size:14px;
+    font-size:18px;
     color:white;
     line-height:90%;
     /*background-color:greenyellow;*/
@@ -134,4 +134,9 @@ header {
     right: 30px;
     bottom: 30px;
     display: flex;
+}
+
+.end{
+    margin: 30px;
+    text-align: left;
 }
