@@ -1,12 +1,24 @@
+/*全体*/
 html{
     scroll-behavior: smooth;
 }
 
+/*SDVXロゴ*/
 .title {
-    color: #02ccba;
     text-align: center;
-  }
+}
 
+/*SDVXロゴ*/
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*背景*/
 body {
     background-image: url("img/backwaku.png");
     background-color:darkgray;
@@ -14,6 +26,7 @@ body {
     padding: 0;
 }
 
+/*ヘッダー*/
 header {
     display: flex;
     width: 100%;
@@ -25,6 +38,7 @@ header {
     position:fixed;
 }
 
+/*ボタン枠*/
 .bt_trans{
     height:50px;
     text-align:center!important;
@@ -35,15 +49,30 @@ header {
     margin-bottom: 29px;
 }
 
-.logo {
-    position: absolute;
-    top: 50px;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+/*ニュースボタン*/
+.bt_news{
+    max-width: 200px;
+    width:100%;
 }
 
+/*カフェボタン*/
+.bt_cafe{
+    max-width: 200px;
+    width:100%;
+}
+
+/*フロアーボタン*/
+.bt_floor{
+    max-width: 200px;
+    width:100%;
+}
+
+/*横並びクリア*/
+.after{
+    clear:both;
+}
+
+/*メイン*/
 .main{
     height: 2830px;
     min-height: 100%;
@@ -55,6 +84,7 @@ header {
     margin: 0px 10px;
 }
 
+/*h3見出し*/
 .main h3{
     font-size:20px;
     color:#F9DBB8;
@@ -64,6 +94,7 @@ header {
     /*background-color:greenyellow;*/
 }
 
+/*ニュースロゴ*/
 .newslogo{
     margin: 50px 30px 0px 50px;
     max-width: 700px;
@@ -71,31 +102,14 @@ header {
     height: auto;
 }
 
-.bt_news{
-    max-width: 200px;
-    width:100%;
-}
-
-.bt_cafe{
-    max-width: 200px;
-    width:100%;
-}
-
-.bt_floor{
-    max-width: 200px;
-    width:100%;
-}
-
-.after{
-    clear:both;
-}
-
+/*箇条書き*/
 .main ul{
     margin: 10px 40px 10px 10px;
     font-size:18px;
     list-style: none;
 }
 
+/*箇条書き 要素*/
 .main li{
     font-size:18px;
     color:white;
@@ -103,37 +117,50 @@ header {
     /*background-color:greenyellow;*/
 }
 
+/*つくったひと*/
+.start{
+    margin: 10px 10px;
+    text-align: left;
+}
+
+/*ツイッターリンク*/
 a{
     color: skyblue;
     text-decoration: underline;
 }
 
+/*ツイッターリンク(1度押したとき)*/
 a :visited{
     color: skyblue;
     text-decoration: underline;
 }
 
+/*アイコンと文章の枠*/
 .flex {
     display: flex; /*横並び*/
     margin: 0 0 20px 0;
 }
   
+/*アイコン枠*/
 .flex .image {
-    width: 30%; /*画像サイズ指定*/
+    width: 30%;
     max-width: 200px;
 }
-  
+
+/*アイコン画像*/
 .flex .image img {
     width: 100%;
     height: auto;
 }
   
+/*文章枠*/
 .flex .right {
-    width: 70%; /*画像サイズ指定*/
+    width: 70%;
     max-width: 700px;
     margin: 0 0 0 20px;
 }
   
+/*文章称号*/
 .flex .title {
     font-weight: bold;
     font-size: 18px;
@@ -142,16 +169,25 @@ a :visited{
     color: deeppink;
 }
   
+/*文章*/
 .flex .text {
     margin: 10px 0 0;
 }
 
+/*おわりに*/
+.end{
+    margin: 10px;
+    text-align: left;
+}
+
+/*ページトップボタン*/
 .bt_page{
     max-width: 200px;
     width: 100%;
     margin:0,10px,10px,0;
 }
 
+/*ページトップ*/
 .pagetop{
     height: 100px;
     width: 100px;
@@ -159,14 +195,4 @@ a :visited{
     right: 30px;
     bottom: 30px;
     display: flex;
-}
-
-.start{
-    margin: 10px 10px;
-    text-align: left;
-}
-
-.end{
-    margin: 10px;
-    text-align: left;
 }
