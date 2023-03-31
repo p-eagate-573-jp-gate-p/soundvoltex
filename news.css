@@ -1,12 +1,24 @@
+/*全体*/
 html{
     scroll-behavior: smooth;
 }
 
+/*SDVXロゴ*/
 .title {
-    color: #02ccba;
     text-align: center;
-  }
+}
 
+/*SDVXロゴ*/
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*背景*/
 body {
     background-image: url("img/backwaku.png");
     background-color:darkgray;
@@ -14,6 +26,7 @@ body {
     padding: 0;
 }
 
+/*ヘッダー*/
 header {
     display: flex;
     width: 100%;
@@ -25,6 +38,7 @@ header {
     position:fixed;
 }
 
+/*ボタン枠*/
 .bt_trans{
     height:50px;
     text-align:center!important;
@@ -35,15 +49,30 @@ header {
     margin-bottom: 29px;
 }
 
-.logo {
-    position: absolute;
-    top: 50px;
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+/*ニュースボタン*/
+.bt_news{
+    max-width: 200px;
+    width:100%;
 }
 
+/*カフェボタン*/
+.bt_cafe{
+    max-width: 200px;
+    width:100%;
+}
+
+/*フロアーボタン*/
+.bt_floor{
+    max-width: 200px;
+    width:100%;
+}
+
+/*横並びクリア*/
+.after{
+    clear:both;
+}
+
+/*メイン*/
 .main{
     height: 2800px;
     min-height: 100%;
@@ -55,51 +84,7 @@ header {
     margin: 0px 10px;
 }
 
-.newslogo{
-    margin: 50px 30px 0px 50px;
-    max-width: 700px;
-    width:80%;
-    height: auto;
-}
-
-a{
-    color:skyblue;
-    text-decoration: none;
-}
-
-a:visited {
-    color:skyblue;
-    text-decoration: underline;
-}
-
-.newsongs{
-    max-width: 1500px;
-    width:100%;
-}
-
-.skill{
-    max-width: 1500px;
-    width:100%;
-}
-
-.neweffect{
-    max-width: 1500px;
-    width:100%;
-}
-
-.main ul{
-    margin: 10px 40px 10px 10px;
-    font-size:14px;
-    list-style: none;
-}
-
-.main li{
-    font-size:18px;
-    color:white;
-    line-height:60%;
-    /*background-color:greenyellow;*/
-}
-
+/*h3見出し*/
 .main h3{
     font-size:20px;
     color:#F9DBB8;
@@ -109,31 +94,48 @@ a:visited {
     /*background-color:greenyellow;*/
 }
 
-.after{
-    clear:both;
+/*ニュースロゴ*/
+.newslogo{
+    margin: 50px 30px 0px 50px;
+    max-width: 700px;
+    width:80%;
+    height: auto;
 }
 
-.bt_news{
-    max-width: 200px;
+/*箇条書き*/
+.main ul{
+    margin: 10px 40px 10px 10px;
+    font-size:14px;
+    list-style: none;
+}
+
+/*箇条書き 要素*/
+.main li{
+    font-size:18px;
+    color:white;
+    line-height:60%;
+    /*background-color:greenyellow;*/
+}
+
+/*新曲バナー*/
+.newsongs{
+    max-width: 1500px;
     width:100%;
 }
 
-.bt_cafe{
-    max-width: 200px;
+/*スキアナバナー*/
+.skill{
+    max-width: 1500px;
     width:100%;
 }
 
-.bt_floor{
-    max-width: 200px;
+/*追加譜面バナー*/
+.neweffect{
+    max-width: 1500px;
     width:100%;
 }
 
-.bt_page{
-    max-width: 200px;
-    width: 100%;
-    margin:0,10px,10px,0;
-}
-
+/*ページトップ*/
 .pagetop{
     height: 100px;
     width: 100px;
@@ -141,4 +143,11 @@ a:visited {
     right: 30px;
     bottom: 30px;
     display: flex;
+}
+
+/*ページトップボタン*/
+.bt_page{
+    max-width: 200px;
+    width: 100%;
+    margin:0,10px,10px,0;
 }
