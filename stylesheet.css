@@ -45,11 +45,10 @@ header {
 }
 
 .main{
-    height: 4030px;
+    height: 4250px;
     min-height: 100%;
     object-fit: cover;
-    background-image: url("img/div3-min.png");
-    /*background-color:pink;*/
+    background-image: url("img/div4-min.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
     margin: 0px 10px;
@@ -60,47 +59,6 @@ header {
     max-width: 700px;
     width:80%;
     height: auto;
-}
-
-.newsongs{
-    max-width: 1500px;
-    width:100%;
-}
-
-.skill{
-    max-width: 1500px;
-    width:100%;
-}
-
-.neweffect{
-    max-width: 1500px;
-    width:100%;
-}
-
-.main ul{
-    margin: 10px 40px 10px 10px;
-    font-size:14px;
-    list-style: none;
-}
-
-.main li{
-    font-size:18px;
-    color:white;
-    line-height:90%;
-    /*background-color:greenyellow;*/
-}
-
-.main h3{
-    font-size:20px;
-    color:#F9DBB8;
-    text-shadow: -1px -1px 0 #734A30, -1px 0 0 #734A30, -1px 1px 0 #734A30,
-                  0 -1px 0 #734A30,                  0 1px 0 #734A30,
-                1px -1px 0 #734A30,  1px 0 0 #734A30,  1px 1px 0 #734A30;
-    /*background-color:greenyellow;*/
-}
-
-.after{
-    clear:both;
 }
 
 .bt_news{
@@ -116,6 +74,80 @@ header {
 .bt_floor{
     max-width: 200px;
     width:100%;
+}
+
+.after{
+    clear:both;
+}
+
+.cafe{
+    margin: 10px 40px 10px 10px;
+    font-size:14px;
+    list-style: none;
+    /*background-color: blue;*/
+}
+
+.cafemenu{
+    max-width: 2000px;
+    width:100%;
+}
+
+.main p{
+    margin: 10px 40px 10px 40px;
+    font-size:18px;
+    color:white;
+    line-height:90%;
+    list-style: none;
+}
+
+.main h3{
+    margin: 10px 40px 10px 40px;
+    font-size:20px;
+    color:#F9DBB8;
+    text-shadow: -1px -1px 0 #734A30, -1px 0 0 #734A30, -1px 1px 0 #734A30,
+                  0 -1px 0 #734A30,                  0 1px 0 #734A30,
+                1px -1px 0 #734A30,  1px 0 0 #734A30,  1px 1px 0 #734A30;
+    /*background-color:greenyellow;*/
+}
+
+.main ul{
+    margin: 10px 40px 10px 10px;
+    font-size:18px;
+    list-style: none;
+}
+
+.main li{
+    font-size:18px;
+    color:white;
+}
+
+.flex{
+    display: flex;
+    padding: 10px;
+}
+
+.flex .box1{
+    display: inline;
+    vertical-align: middle;
+    color: #FFF;
+    width:33%;
+    max-width: 300px;
+    margin: 0px 10px 10px 0px;
+}
+
+.flex .box2{
+    display: inline;
+    vertical-align: top;
+    text-align: left;
+    color: #FFF;
+    width:67%;
+    max-width: 600px;
+    margin: 0px 10px 10px 0px;
+}
+
+.food_title{
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .bt_page{
